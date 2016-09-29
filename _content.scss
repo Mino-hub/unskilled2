@@ -1,0 +1,29 @@
+@import "mixin";
+#content{
+    padding:0 2rem;
+    img{
+        max-width:80%;
+        height:auto;
+    }
+    table{
+        @include media(padding-left 0 0 1rem 1rem 1rem); 
+        @include media(padding-right 0 0 1rem 1rem 1rem); 
+        padding-top:1rem;
+        padding-bottom:1rem;
+        display:block;
+        overflow-x:auto;
+    }
+    tbody{
+        width:auto;
+        white-space:nowrap;
+    }
+    tr{
+    }
+    tr:nth-child(odd){
+        background-color:#eeeeee;
+    }
+    th,td{
+        padding:1rem;
+        border:1px solid #cccccc;
+    }
+}

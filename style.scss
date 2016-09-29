@@ -1,0 +1,51 @@
+/*
+Thema Name:unskilles-2 
+*/
+
+//----------------------
+//CSS Reset
+//----------------------
+
+@import "reset";
+
+//----------------------
+//partial
+//----------------------
+
+@import  "mixin";
+@import  "header";
+@import  "outline";
+@import  "continer";
+@import  "content";
+@import  "content-header";
+
+//----------------------
+//general
+//----------------------
+*{
+    box-sizing:border-box;
+}
+html{
+    font-size:14px;
+}
+body{
+    line-height:150%;
+    font-family:
+    Avenir ,
+    "Open Sans" ,
+    "Helvetica Neue" ,
+    "Ubuntu mono" ,
+    mono space ,
+    Helvetica ,
+    Arial ,
+    Verdana ,
+    Roboto ,
+    "ヒラギノ角ゴ Pro W3" ,
+    "Hiragino Kaku Gothic Pro" ,
+    "Meiryo UI" ,
+    "メイリオ" ,
+    Meiryo ,
+    "ＭＳ Ｐゴシック" ,
+    "MS PGothic" ,
+    sans-serif;
+}
