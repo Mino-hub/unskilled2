@@ -5,7 +5,7 @@ $flag = preg_match_all("/<(h[1-6]{1}).*>(.*)<\/h[1-6]{1}>/u", $content, $htag, P
 if($flag === 0){
 }else{
     echo '<div id="outline">';
-    echo '<div id="outline__title">目次</div>';
+    echo '<div id="outline__title">目次(クリックするとジャンプします）</div>';
     echo '<ul id="outline__ul">';
     $h1Flag = $h2Flag = $h3Flag = $h4Flag = $h5Flag = $h6Flag = 0;
     foreach ($htag as $data) {

@@ -11,10 +11,12 @@
 </head>
 
 <body <?php body_class(); ?> >
-<header>
-    <a id="topimg" href="<?php echo site_url(); ?>">
-        <img id="topimg-img" src="<?php  echo get_stylesheet_directory_uri()."/img/top.png"; ?>">
-    </a>
-</header>
-<div id="continer">
-<div id="main">
+    <div id="top">
+        <img src="<?php echo get_template_directory_uri();?>/img/retop.png">
+    </div>
+    <header>
+        <a id="topimg" href="<?php echo site_url(); ?>">
+            <img id="topimg-img" src="<?php  echo get_stylesheet_directory_uri()."/img/top.png"; ?>">
+        </a>
+    <div class="sep2"></div>
+    </header>

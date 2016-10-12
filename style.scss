@@ -18,6 +18,10 @@ Thema Name:unskilles-2
 @import  "continer";
 @import  "content";
 @import  "content-header";
+@import  "content-footer";
+@import  "sidebar";
+@import  "index";
+@import  "unkown";
 
 //----------------------
 //general
@@ -48,4 +52,87 @@ body{
     "ＭＳ Ｐゴシック" ,
     "MS PGothic" ,
     sans-serif;
+}
+footer{
+    width:100%;
+    margin-top:1rem;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+#continer{
+    @include media(width 100% 100% calc(100% - 12rem) calc(100% - 12rem) calc(100% - 12rem));
+    // width:calc(100% - 12rem);
+    // margin:0 6rem;
+    @include media(margin-right 0 0 6rem 6rem 6rem);
+    @include media(margin-left 0 0 6rem 6rem 6rem);
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:flex-start;
+}
+#main{
+    width:70%;
+    @include media(width 100% 100% 70% 70% 70%);
+}
+#sidebar{
+    width:30%;
+    @include media(width calc(100% - 2rem) calc(100% - 2rem) 30% 30% 30%);
+    @include media(margin-right 1rem 1rem 0 0 0);
+    @include media(margin-left 1rem 1rem 0 0 0);
+}
+.sep {
+    width:100%;
+    margin:1rem 0;
+    border-top:1px solid #d4bcad;
+    height:1px;
+}
+.sep2 {
+    @include media(width 100% 100% calc(85% - 2rem) calc(85% - 2rem) calc(85% - 2rem));
+    margin:1rem 0;
+    border-top:1px solid #d4bcad;
+    height:1px;
+}
+#sns__center__ul{
+    width:100%;
+    margin-bottom:1rem;
+    display:flex;
+    flex-wrap:nowrap;
+    justify-content:center;
+}
+#sns__ul{
+    width:100%;
+    margin-bottom:1rem;
+    display:flex;
+    flex-wrap:nowrap;
+    justify-content:flex-start;
+}
+#sidebar-sns__ul{
+    width:100%;
+    margin-bottom:1rem;
+    display:flex;
+    flex-wrap:nowrap;
+    justify-content:flex-start;
+}
+.sns__ul-li{
+    width:2.5rem;
+    height:2.5rem;
+    margin-right:0.5rem;
+}
+.sns__ul-li:last-child{
+    margin-right:0;
+}
+.sns__ul-li img{
+    width:100%;
+    height:auto;
+}
+#top{
+    width:25px;
+    cursor:pointer;
+    z-index:100;
+    position:fixed;
+    left:2%;
+    bottom:2%;
+}
+#top img{
+    width:100%;
 }
