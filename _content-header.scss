@@ -126,9 +126,12 @@ header{
     vertical-align:middle;
 }
 #outline{
-    width:300px;
-    height:250px;
-    margin:1rem;
+    @include media(width 300px 300px 336px 336px 336px);
+    @include media(height 250px 250px 280px 280px 280280px);
+    @include media(margin-left 10px 10px 1rem 1rem 1rem);
+    @include media(margin-right 10px 10px 1rem 1rem 1rem);
+    margin-top:1rem;
+    margin-bottom:1rem;
     padding:1.5rem;
     overflow:scroll;
     border:1px solid #af9a8b;
@@ -156,11 +159,6 @@ header{
     margin-left:4rem;
 }
 
-.sd{
-    width:300px;
-    height:250px;
-    margin:1rem;
-}
 #content-header__wrap2{
     width:100%;
     display:flex;

@@ -7,22 +7,17 @@
 <div id="content-header__wrap2">
     <?php get_template_part("content-header-outline"); ?>
     <div class="sd">
-        <img src="<?php echo get_stylesheet_directory_uri()."/img/300-250.png"; ?>">
+        <?php get_template_part("top_unit"); ?>
     </div>
 </div>
 <?php get_template_part("content-header-related"); ?>
-<div id="content-header__wrap2">
-    <div class="sd">
-        <img src="<?php echo get_stylesheet_directory_uri()."/img/300-250.png"; ?>">
-    </div>
-</div>
 <div id="content">
     <?php the_content(); ?>
 </div>
 <div id="content-footer">
     <div id="content-footer__wrap1">
         <div class="sd">
-            <img src="<?php echo get_stylesheet_directory_uri()."/img/300-250.png"; ?>">
+            <?php get_template_part("bottom_unit"); ?>
         </div>
     </div>
     <div class="sep"></div>

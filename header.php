@@ -11,6 +11,7 @@
 </head>
 
 <body <?php body_class(); ?> >
+    <?php //gacode(); ?>
     <div id="top">
         <img src="<?php echo get_template_directory_uri();?>/img/retop.png">
     </div>
