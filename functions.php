@@ -5,6 +5,7 @@ add_theme_support('post-thumbnails');
 function content_ad($atts){
 if((bool)$atts["bool"] === true){
 $code = <<<aaa
+<div id="content-footer__wrap1">
 <div class="sd">
 <style>
 @media(max-width: 319px) { .ad_in { width: 300px; height: 250px; } }
@@ -25,6 +26,7 @@ $code = <<<aaa
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+</div>
 </div>
 aaa;
 }
