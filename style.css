@@ -613,19 +613,24 @@ header {
   color: #584235; }
 
 .outline__ul-li-h2 {
-  font-weight: 900; }
+  font-weight: 900;
+  cursor: pointer; }
 
 .outline__ul-li-h3 {
-  margin-left: 1rem; }
+  margin-left: 1rem;
+  cursor: pointer; }
 
 .outline__ul-li-h4 {
-  margin-left: 2rem; }
+  margin-left: 2rem;
+  cursor: pointer; }
 
 .outline__ul-li-h5 {
-  margin-left: 3rem; }
+  margin-left: 3rem;
+  cursor: pointer; }
 
 .outline__ul-li-h5 {
-  margin-left: 4rem; }
+  margin-left: 4rem;
+  cursor: pointer; }
 
 #content-header__wrap2 {
   width: 100%;
@@ -1301,7 +1306,7 @@ footer {
   width: 100%; }
 
 .sd {
-  background-color: #eeeeee;
+  background-color: #ffffff;
   margin-top: 1rem;
   margin-bottom: 1rem; }
   @media (max-width: 425px) {
