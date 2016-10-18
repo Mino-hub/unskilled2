@@ -4,7 +4,7 @@ add_theme_support('post-thumbnails');
 
 function content_ad($atts){
 if((bool)$atts["bool"] === true){
-echo <<<aaa
+$code = <<<aaa
 <div class="sd">
 <style>
 @media(max-width: 319px) { .ad_in { width: 300px; height: 250px; } }
@@ -28,6 +28,7 @@ echo <<<aaa
 </div>
 aaa;
 }
+return $code;
 }
 add_shortcode("cad", "content_ad");
 
