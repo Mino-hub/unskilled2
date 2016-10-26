@@ -5,8 +5,8 @@
 <div id="continer">
 <div id="main">
 <div id="content-header__wrap2">
-    <?php get_template_part("content-header-outline"); ?>
     <?php get_template_part("top_unit"); ?>
+    <?php get_template_part("content-header-outline"); ?>
 </div>
 <?php get_template_part("content-header-related"); ?>
 <div id="content">
