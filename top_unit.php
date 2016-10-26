@@ -14,7 +14,7 @@
      style="display:block"
      data-ad-client="ca-pub-2508992942318870"
      data-ad-slot="6812690408"
-     data-ad-format="rectangle"></ins>
+     data-ad-format="auto"></ins>
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
