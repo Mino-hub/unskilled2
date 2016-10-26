@@ -1,4 +1,4 @@
-<div class="sd">
+<div class="sd-top">
 <style>
 @media(max-width: 319px) { .ad_top { width: 300px; height: 250px; } }
 @media(max-width: 320px)and(max-width: 355px){ .ad_top { width: 300px; height: 250px; } }
